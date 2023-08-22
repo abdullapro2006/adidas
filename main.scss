@@ -1,0 +1,748 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 100%;
+}
+.menu-bar{
+    background-color:#ffff;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+.menu-bar{
+    a{
+      margin: 15px;
+      text-decoration:none;
+      color: black;
+      font-size: small;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    img{
+        margin: 15px;
+    }
+}
+
+.adidas-image{
+   margin: 15px;
+   margin-bottom: 50px;
+   margin-left: 20px;
+}
+
+.menu-bar-bottom{
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.menu-bar-bottom{
+    .texts{
+        display: flex;
+           align-items: center;
+           flex-direction: row;
+           gap: 15px;
+        a{
+           text-decoration: none;
+           color: #000000;
+        }
+     }
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    background-color: #e3e3e3;
+    padding: 4px;
+    box-sizing: border-box;
+
+    &__input{
+        height: 20px;
+        flex-grow:1;
+        background-color: transparent;
+        outline: none;
+        padding-right: 6px;
+
+    }
+}
+
+.logo-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-right: 30px;
+}
+
+.search-box{
+    i{
+       position: relative;
+       right: 20px;
+
+        
+    }
+}
+
+.second-part{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 100%;
+    }
+
+    
+}
+
+.second-part{
+    .title{
+       position: absolute;
+       top: 370px;
+       right: 1100px;
+      
+      
+    }
+    h1{
+     color: #ffff;
+     margin: bottom 20px ;
+        
+       
+    }
+    h5{
+        color: #ffff;
+        margin-top: 20px;
+        font-size: 18px;
+    
+    }
+
+    button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+        color: #e3e3e3;
+        width: 153px;
+        height: 50px;
+        border-radius:7px;
+
+
+        p{
+            color: #000000;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            font-family: sans-serif;
+            font-size:16px;
+        }
+        
+        i{
+            color: #000000;
+            display: flex;
+            margin-left: 10px;
+
+           
+        }
+    }
+}
+
+.yeezy{
+    width: 1690px;
+    height: 328px;
+    background-color: #EDEDE3;
+    
+   
+    
+  h1{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    color: #000000;
+  }
+
+   .first-link{
+    width:86px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover a{
+        background-color: #000000;
+        color: #e3e3e3;
+    }
+    a{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 60px;
+        left: 800px;
+        color: #000000;
+        font-weight: 300;
+        text-decoration: underline;
+        transition: 0.2s;
+
+       
+    }
+   }
+   .second-link{
+    width: 218px;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover a{
+     background-color: #000000;
+     color: #e3e3e3;
+    }
+
+    a{
+        position: relative;
+        top: 80px;
+        left: 730px;
+        text-decoration: underline;
+        transition: 0.2s;
+    }
+   }
+  
+}
+
+.still-interested{
+    width:1690;
+    height: 534px;
+    
+    
+    .text{
+        margin-top: 0 0 40px;
+        margin-top: 50px;
+        margin-left: 70px;
+        p{
+            font-size: 40px;
+            margin-bottom: 40px;
+          
+        }
+    }
+
+}
+
+.albums{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100vw;
+    gap: 20px;
+    .album{
+        display: flex;
+        width: 378px;
+        height: 378px;
+        position: relative;
+        bottom: 450px;
+
+        i{
+           position: relative;
+           left: 370px;
+           top: 20px;
+        }
+        .for1{
+           position: relative;
+           right: 370px;
+           top: 360px;
+           background-color:#FFFFFF;
+        }
+
+        .for2{
+            position: relative;
+            right: 370px;
+            top: 360px;
+            background-color:#FFFFFF;
+         }
+
+         .for3{
+            position: relative;
+            right: 370px;
+            top: 360px;
+            background-color:#FFFFFF;
+         }
+         .for4{
+            position: relative;
+            right: 370px;
+            top: 360px;
+            background-color:#FFFFFF;
+         }
+
+    }
+
+}
+
+.firstdetails{
+    position: relative;
+    bottom: 440px;
+    left: 30px;
+}
+
+.second-details{
+    position: relative;
+    left: 500px;
+    bottom: 478px;
+}
+
+.third-details{
+    position: relative;
+    left: 970px;
+    bottom: 517px;
+}
+
+.fourth-details{
+    position: relative;
+    left: 1300px;
+    bottom: 555px;
+}
+
+.sneakers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1537px;
+    height: 274px;
+    position: relative;
+    bottom: 380px;
+    
+    
+    .album{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 300px;
+        box-shadow: 0 0 10px gray;
+        margin-left: 30px;
+        background-color: gray;
+        box-sizing: border-box;
+     
+        
+      
+    
+
+       
+
+    }
+   
+    
+   
+}
+
+.sneakers-text{
+    width: 143px;
+    height: 20px;
+    position: relative;
+    bottom: 400px;
+    left: 120px;
+    text-decoration: underline;
+    &:hover {
+        background-color: #000000;
+        color: #e3e3e3;
+    }
+   
+}
+
+.for-women{
+    width: 169px;
+    height: 20px;
+    position:relative;
+    left: 500px;
+    bottom: 420px;
+    text-decoration: underline;
+    &:hover p{
+        background-color: #000000;
+        color: #e3e3e3;
+       
+    }
+}
+
+.mens-shoes{
+    width: 110px;
+    height: 20px;
+    position: relative;
+    bottom: 440px;
+    left:900px;
+    margin-top: auto;
+    text-decoration: underline;
+    &:hover p{
+        background-color: #000000;
+        color:#e3e3e3;
+    }
+}
+
+.womens-shoes{
+    width: 136px;
+    height: 20px;
+    position: relative;
+    left: 1300px;
+    bottom: 460px;
+    text-decoration:underline ;
+    &:hover p{
+        background-color: #000000;
+        color: #e3e3e3;
+
+    }
+}
+
+.albums-2{
+    margin-top: 190px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100vw;
+    gap: 20px;
+    .album{
+        display: flex;
+        width: 378px;
+        height: 378px;
+        position: relative;
+        bottom: 450px;
+
+        i{
+           position: relative;
+           left: 370px;
+           top: 20px;
+        }
+        .for1{
+           position: relative;
+           right: 370px;
+           top: 360px;
+           background-color:#FFFFFF;
+        }
+
+        .for2{
+            position: relative;
+            right: 370px;
+            top: 360px;
+            background-color:#FFFFFF;
+         }
+
+         .for3{
+            position: relative;
+            right: 370px;
+            top: 360px;
+            background-color:#FFFFFF;
+         }
+         .for4{
+            position: relative;
+            right: 370px;
+            top: 360px;
+            background-color:#FFFFFF;
+         }
+
+    }
+
+}
+
+.third-section{
+    width: 1537px;
+    height: 592px;
+    display: flex;
+    gap: 16px;
+  justify-content: right;
+  position: relative;
+  bottom: 420px;
+
+
+    .album{
+        width: 303px;
+        height: 404px;
+
+        
+    }
+}
+
+.content-1{
+          
+    width: 303px;
+    height: 148px;
+   .title{
+    position:relative;
+    bottom: 590px;
+    left: 280px;
+
+    .shop-now{
+        width: 87px;
+        height: 18px;
+        margin-top: 20px;
+        
+        &:hover a{
+            background-color: #000000;
+            color: #e3e3e3;
+        }
+        a{
+            transition: 0.5s;
+            text-decoration: none;
+            text-decoration: underline;
+            color: #000000;
+           font: 14px;
+        }
+
+    }
+   }
+   .summary{
+    margin-top: 10px;
+     width: 302px;
+     height: 34px;
+
+   }
+
+   .title-2{
+    position:relative;
+    bottom: 690px;
+    left: 610px;
+
+    .shop-now{
+        width: 87px;
+        height: 18px;
+        margin-top: 20px;
+        
+        &:hover a{
+            background-color: #000000;
+            color: #e3e3e3;
+        }
+        a{
+            transition: 0.5s;
+            text-decoration: none;
+            text-decoration: underline;
+            color: #000000;
+           font: 14px;
+        }
+
+    }
+   }
+
+   .title-3{
+    position:relative;
+    bottom: 800px;
+    left: 920px;
+
+    .shop-now{
+        width: 87px;
+        height: 18px;
+        margin-top: 20px;
+        
+        &:hover a{
+            background-color: #000000;
+            color: #e3e3e3;
+        }
+        a{
+            transition: 0.5s;
+            text-decoration: none;
+            text-decoration: underline;
+            color: #000000;
+           font: 14px;
+        }
+
+    }
+   }
+   .title-4{
+    
+    position:relative;
+    bottom: 920px;
+    left: 1260px;
+    .shop-now{
+        width: 87px;
+        height: 18px;
+        margin-top: 20px;
+        
+        &:hover a{
+            background-color: #000000;
+            color: #e3e3e3;
+        }
+        a{
+            transition: 0.5s;
+            text-decoration: none;
+            text-decoration: underline;
+            color: #000000;
+           font: 14px;
+        }
+
+    }
+    
+   }
+}
+
+.adidas-stories{
+    display: flex;
+    width: 1537px;
+    height: 376px;
+    margin: 150px 0px 0px;
+    
+    .text{
+        width: 1250px;
+        height: 28px;
+       
+        h4{
+            position: relative;
+            right: 1000px;
+            font-size: xx-large;
+        }
+    }
+    .album{
+      position: relative;
+      right: 2200px;
+      top: 80px;
+    }
+    p{
+        width: 232px;
+        height: 16px;
+        position: relative;
+        right: 2490px;
+        top: 268px;
+       
+    }
+}
+.popular{
+    margin: 80px 0px 0px;
+    width: 1537px;
+    height: 276px;
+    position: relative;
+    right: 1100px;
+    .row{
+        display: flex;
+        gap: 200px;
+        flex-direction: row;
+      margin-top: 60px;
+    }
+    .row-2{
+        display: flex;
+        gap: 200px;
+        margin-top: 40px;
+    }
+}
+
+.component{
+    width: 1936px;
+    height: 680px;
+    background-color: #F5F5E5;
+    position: relative;
+    right: 1300px;
+
+    .heading{
+        width: 420px;
+        height: 126px;
+        position: relative;
+        left: 300px;
+        top: 100px;
+        margin-top: 20px;
+        h1{
+            position: relative;
+            bottom: 30px;
+        }
+
+        .content{
+            width: 585px;
+            height: 330px;
+            font-size: 20px;
+        }
+
+        .content-2{
+            position: relative;
+            bottom: 80px;
+            font-size: 20px;
+        }
+    }
+}
+
+.component-2{
+    position: relative;
+    bottom: 600px;
+    right: 300px;
+
+    .heading{
+        width: 420px;
+        height: 126px;
+        position: relative;
+
+        margin-top: 20px;
+        h1{
+            position: relative;
+            bottom: 30px;
+        }
+
+        .content{
+            width: 585px;
+            height: 330px;
+            font-size: 20px;
+        }
+
+        .content-2{
+            position: relative;
+            bottom: 80px;
+            font-size: 20px;
+        }
+    }
+}
+footer{
+    width: 1537px;
+    height: 133px;
+}
+
+.join-our-club{
+    width: 2100px;
+    height: 132px;
+    background-color: #ede734;
+    position: relative;
+    right: 1400px;
+    bottom: 150px;
+
+    span{
+        position: relative;
+        top: 50px;
+        left: 600px;
+        font-size: 30px;
+    }
+    button{
+        position: relative;
+        left: 650px;
+        top: 40px;
+        background-color: #000000;
+        color: #e3e3e3;
+        width: 220px;
+        height: 50px;
+        &:hover{
+            opacity: 50%;
+        }
+    }
+
+    .footer-2{
+        width: 1010px;
+        height: 440px;
+       
+        
+        h5{
+            position: relative;
+            right: 500px;
+            
+        }
+        
+        ul{
+          width: 132px;
+          height: 420px;
+        }
+    }
+}
